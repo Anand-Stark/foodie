@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_URL = 'http://localhost:5000/restaurants';
+export const API_URL = 'https://foodie-box.onrender.com/restaurants';
 
 export const fetchRestaurants = async (page,limit) => {
 
