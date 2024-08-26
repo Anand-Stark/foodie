@@ -100,7 +100,7 @@ exports.getRestaurantWithinRadius = async (req, res) => {
         $geoWithin: {
           $centerSphere: [
             [parseFloat(longitude), parseFloat(latitude)],
-            500 / 6378.1,
+            3 / 6378.1,
           ], // 3 km radius
         },
       },
