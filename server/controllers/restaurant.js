@@ -10,7 +10,8 @@ const Country = require("../models/CountryModel");
 const { log } = require("console");
 
 
-const API_KEY = 'AIzaSyBKdg6RP935PRwJVla4G2gEcoRALOY1H3c';
+// const API_KEY = 'AIzaSyBKdg6RP935PRwJVla4G2gEcoRALOY1H3c';
+const API_KEY = 'AIzaSyAre_F-IZXx5lK-BRkuvrA_dV8ACEraiVI';
 const fileManager = new GoogleAIFileManager(API_KEY);
 const genAI = new GoogleGenerativeAI(API_KEY);
 
