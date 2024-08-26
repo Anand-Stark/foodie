@@ -1,17 +1,20 @@
+import { BeatLoader } from "react-spinners";
 
-import { PuffLoader } from "react-spinners";
 const Loader = () => {
     return (
         <div
             className="
-            h-[70vh]
+            fixed
+            inset-0
             flex
-            flex-col
             justify-center
             items-center
+            bg-white
+            bg-opacity-75
+            z-50
         "
         >
-            <PuffLoader size={100} color="red" />
+            <BeatLoader color="red" />
         </div>
     );
 };
